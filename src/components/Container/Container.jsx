@@ -8,5 +8,7 @@ const Container = ({ children }) => {
 export default Container;
 
 Container.propTypes = {
-  children: PropTypes.arrayOf(PropTypes.object),
+  children: PropTypes.arrayOf(PropTypes.shape({
+    id: PropTypes.object
+})),
 }

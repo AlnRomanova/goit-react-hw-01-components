@@ -3,6 +3,8 @@ import user from 'helpers/user.json';
 import Container from "./Container/Container";
 import Statistics from "./Statistics/Statistics";
 import data from 'helpers/data.json';
+import friends from 'helpers/friends.json';
+import FriendList from "./FriendList/FriendList";
 
 
 
@@ -19,6 +21,7 @@ stats={user.stats}
 />
 <Statistics title="Upload stats" stats={data} />
 <Statistics stats={data} />
+<FriendList friends={friends} />;
 </Container>
     </>
 
