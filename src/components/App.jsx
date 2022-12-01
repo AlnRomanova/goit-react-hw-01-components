@@ -1,11 +1,13 @@
 import Profile from "./Profile/Profile";
 import user from 'helpers/user.json';
+import Container from "./Container/Container";
 
 
 export const App = () => {
   console.log(user)
   return (
-    <div>
+    <>
+<Container>
 <Profile
 username={user.username}
 tag={user.tag}
@@ -13,7 +15,8 @@ location={user.location}
 avatar={user.avatar}
 stats={user.stats}
 />
-    </div>
+</Container>
+    </>
 
 
   );
