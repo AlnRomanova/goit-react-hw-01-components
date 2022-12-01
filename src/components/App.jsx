@@ -1,10 +1,12 @@
 import Profile from "./Profile/Profile";
 import user from 'helpers/user.json';
 import Container from "./Container/Container";
+import Statistics from "./Statistics/Statistics";
+import data from 'helpers/data.json';
+
 
 
 export const App = () => {
-  console.log(user)
   return (
     <>
 <Container>
@@ -15,6 +17,8 @@ location={user.location}
 avatar={user.avatar}
 stats={user.stats}
 />
+<Statistics title="Upload stats" stats={data} />
+<Statistics stats={data} />
 </Container>
     </>
 
