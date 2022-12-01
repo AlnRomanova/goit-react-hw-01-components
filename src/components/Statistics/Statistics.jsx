@@ -10,7 +10,8 @@ const Statistics = ({title, stats}) => {
 
   <ul className="stat-list">
   {stats.map((stat) => (
-        <Stats stat={stat}/>
+        <Stats
+        key={stat.id} stat={stat}/>
     ))}
   </ul>
 </section>
