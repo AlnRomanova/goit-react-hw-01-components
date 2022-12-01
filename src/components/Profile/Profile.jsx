@@ -2,8 +2,6 @@ import React from 'react';
 import PropTypes from "prop-types";
 import './Profile.styles.css'
 
-
-
  const Profile = ({username, tag, location, avatar, stats}) => {
   return (
     <div className="profile">

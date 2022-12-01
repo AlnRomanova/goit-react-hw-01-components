@@ -1,7 +1,8 @@
 import React from "react";
+import PropTypes from "prop-types";
 
 
-export default function Stats ({stat:{id, label, percentage}}) {
+const Stats = ({stat:{id, label, percentage}}) => {
   const bgColor = `#${Math.floor(Math.random() * 16777215).toString(16)}`;
   return (
     <li
@@ -12,3 +13,13 @@ export default function Stats ({stat:{id, label, percentage}}) {
     </li>
   );
 }
+
+export default Stats;
+
+Stats.propTypes = {
+  id: PropTypes.string,
+  label: PropTypes.string,
+  percentage: PropTypes.number,
+}
+
+
