@@ -1,4 +1,8 @@
 import React from 'react';
+import PropTypes from "prop-types";
+import './Profile.styles.css'
+
+
 
  const Profile = ({username, tag, location, avatar, stats}) => {
   return (
@@ -32,5 +36,14 @@ import React from 'react';
   )
 }
 
+export default Profile;
 
-export default Profile
+Profile.propTypes = {
+  username: PropTypes.string.isRequired,
+  tag: PropTypes.string.isRequired,
+  location: PropTypes.string.isRequired,
+  avatar: PropTypes.string.isRequired,
+  stats: PropTypes.object,
+}
+
+

@@ -1,0 +1,47 @@
+.description {
+  text-align: center;
+  padding: 30px 0;
+}
+
+.name{
+  font-size: 18px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+.tag, .location {
+  font-size: 15px;
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+
+.location {
+  font-size: 15px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.stats {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+
+}
+
+.label {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.quantity {
+  display: flex;
+  justify-content: center;
+}
+
+
+
+
+
