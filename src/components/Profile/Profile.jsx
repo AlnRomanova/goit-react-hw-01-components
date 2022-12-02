@@ -9,7 +9,7 @@ import './Profile.styles.css'
     <img
       src={avatar}
       alt="User avatar"
-      className="avatar"
+      className="avatar-profile"
     />
     <p className="name">{username}</p>
     <p className="tag">{tag}</p>

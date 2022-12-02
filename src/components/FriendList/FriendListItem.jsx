@@ -5,7 +5,9 @@ const FriendListItem = ({friend: {avatar, name, isOnline}})=> {
 
   return (
     <>
-   <span className="status">{isOnline}</span>
+   {isOnline
+   ? (<span className="status online">{isOnline} </span>)
+   : (<span className="status offline">{isOnline} </span>)}
    <img className="avatar" src={avatar} alt="User avatar" width="48" />
   <p className="name">{name}</p>
   </>

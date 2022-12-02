@@ -1,19 +1,30 @@
-span.status {
-color: green;
+.status {
+  height: 14px;
+  width: 14px;
+  border-radius: 100%;
 
+
+}
+
+
+ .online {
+  background-color: #39cb58;
+}
+
+ .offline {
+  background-color: #f00;
 }
 
 
 .item {
   display: flex;
-  justify-content: center;
-  text-align: center;
+  justify-content: space-evenly;
   align-items: center;
 
-  gap: 25px;
   margin-bottom: 5px;
   border-radius: 5px;
-  border: 2px solid rgb(104, 162, 243);
+  border: 2px solid rgb(85, 130, 193);
+  box-shadow: 0 4.5px 5px rgba(0,0,0,0.4);
   padding: 15px 0;
 
 
@@ -27,4 +38,5 @@ color: green;
 .name {
   font-size: 24px;
   color: rgb(44, 44, 88);
+  display: flex;
 }

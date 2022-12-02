@@ -4,15 +4,18 @@
   flex-direction: column;
   background-color: rgb(220, 204, 234);
   padding: 20px 0;
- 
+  border-radius: 8px;
+  box-shadow: 0 4.5px 5px rgba(0,0,0,0.4);
+
 }
 
 .description {
+
   border-bottom: solid 2px coral;
 
 }
-img {
-  width: 220px;
+.avatar-profile {
+  width: 180px;
 }
 .name{
   font-size: 18px;
