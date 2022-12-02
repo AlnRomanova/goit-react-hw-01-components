@@ -1,6 +1,5 @@
-import React from 'react';
 import './Statistics.styles.css'
-import Stats from "../Stats/Stats";
+import Stats from 'components/Stats/Stats';
 import PropTypes from "prop-types";
 
 const Statistics = ({title, stats}) => {

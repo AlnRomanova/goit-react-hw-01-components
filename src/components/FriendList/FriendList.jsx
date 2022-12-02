@@ -1,11 +1,9 @@
-import React from 'react';
 import FriendListItem from './FriendListItem';
 import './FriendList.styles.css';
-
+import PropTypes from "prop-types";
 
 
  const FriendList = ({friends}) => {
-  console.log(friends)
   return (
     <ul>
     {friends.map((friend) => (
@@ -18,3 +16,9 @@ import './FriendList.styles.css';
 }
 
 export default FriendList;
+
+FriendList.propTypes = {
+  friends: PropTypes.arrayOf(PropTypes.shape({
+    id: PropTypes.number.isRequired
+}).isRequired).isRequired,
+}
