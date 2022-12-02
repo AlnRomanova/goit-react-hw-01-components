@@ -1,5 +1,5 @@
 import PropTypes from "prop-types";
-import css from './Stats.module.css'
+import css from './Statistics.module.css'
 
 const Stats = ({stat:{id, label, percentage}}) => {
   const bgColor = `#${Math.floor(Math.random() * 16777215).toString(16)}`;
