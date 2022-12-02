@@ -1,16 +1,16 @@
-.status {
-  height: 14px;
-  width: 14px;
-  border-radius: 100%;
-
-}
 
  .online {
   background-color: #39cb58;
+  height: 14px;
+  width: 14px;
+  border-radius: 100%;
 }
 
  .offline {
   background-color: #f00;
+  height: 14px;
+  width: 14px;
+  border-radius: 100%;
 }
 
 .item {
