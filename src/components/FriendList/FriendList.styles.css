@@ -1,0 +1,30 @@
+span.status {
+color: green;
+
+}
+
+
+.item {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+
+  gap: 25px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+  border: 2px solid rgb(104, 162, 243);
+  padding: 15px 0;
+
+
+}
+
+.avatar {
+  width: 80px;
+}
+
+
+.name {
+  font-size: 24px;
+  color: rgb(44, 44, 88);
+}
